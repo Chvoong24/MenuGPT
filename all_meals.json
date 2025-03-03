@@ -1,0 +1,1426 @@
+{
+    "Brunch": [
+        {
+            "name": "Home Style Oatmeal",
+            "description": "No description available."
+        },
+        {
+            "name": "Home Style Blueberry Oatmeal",
+            "description": "No description available."
+        },
+        {
+            "name": "Carrot Ginger Soup",
+            "description": "roasted carrots simmered with aromatic vegetables, herbs, and ginger in house made vegetable stock finished with hemp milk"
+        },
+        {
+            "name": "Old-fashioned Oatmeal",
+            "description": "No description available."
+        },
+        {
+            "name": "Scrambled Cage Free Eggs",
+            "description": "served plain or with cheddar and Monterey jack cheeses"
+        },
+        {
+            "name": "Country Style Home Fries",
+            "description": "with peppers and onions"
+        },
+        {
+            "name": "Pork Sausage",
+            "description": "No description available."
+        },
+        {
+            "name": "Applewood Smoked Bacon",
+            "description": "No description available."
+        },
+        {
+            "name": "Chocolate Chip Pancakes",
+            "description": "fluffy buttermilk pancakes with soy oil and egg griddled with Liuzzi Cheese Co butter"
+        },
+        {
+            "name": "Tofu Scramble",
+            "description": "with peppers, onions, turmeric, miso, soy, and local tofu from The Bridge"
+        },
+        {
+            "name": "Country Style Home Fries",
+            "description": "prepared with peppers and onions"
+        },
+        {
+            "name": "Cashew Fried Rice",
+            "description": "fried rice with carrots, spinach, and soy"
+        },
+        {
+            "name": "Coconut Tofu Tikka Masala",
+            "description": "local soy tofu served in a creamy coconut tomato sauce seasoned with cumin"
+        },
+        {
+            "name": "Steamed Broccoli",
+            "description": "No description available."
+        },
+        {
+            "name": "Make Your Own Waffles",
+            "description": "vanilla malted waffle batter with soy oil and buttermilk"
+        },
+        {
+            "name": "Waffle Toppings",
+            "description": "blueberries strawberries nondairy whipped toppingchocolate chipsoreo piecesmini marshmallowsmini M&M's"
+        },
+        {
+            "name": "Omelet Choice of Vegetables",
+            "description": "onionspeppersmushroomsspinachbroccoli"
+        },
+        {
+            "name": "Omelet Choice of Cheese",
+            "description": "shredded cheddar"
+        },
+        {
+            "name": "Omelet Choice of Meat",
+            "description": "applewood smoked bacon"
+        },
+        {
+            "name": "Cage-free Scrambled Eggs",
+            "description": "1/2 cup"
+        },
+        {
+            "name": "Egg Whites",
+            "description": "No description available."
+        },
+        {
+            "name": "Cage-free Scrambled Eggs with Cheddar",
+            "description": "No description available."
+        },
+        {
+            "name": "Buttermilk Pancakes",
+            "description": "1 pancake"
+        },
+        {
+            "name": "Texas French Toast",
+            "description": "No description available."
+        },
+        {
+            "name": "Bacon",
+            "description": "No description available."
+        },
+        {
+            "name": "Pork Sausage",
+            "description": "2 oz"
+        },
+        {
+            "name": "Country Style Home Fries",
+            "description": "with peppers and onions1/2 cup"
+        },
+        {
+            "name": "Almond Butter",
+            "description": "No description available."
+        },
+        {
+            "name": "Peanut Butter",
+            "description": "No description available."
+        },
+        {
+            "name": "Sunflower Seed Butter",
+            "description": "No description available."
+        },
+        {
+            "name": "Tofu Cream Cheese",
+            "description": "No description available."
+        },
+        {
+            "name": "Tofu",
+            "description": "3 oz"
+        },
+        {
+            "name": "Shredded Chicken",
+            "description": "3 oz"
+        },
+        {
+            "name": "Shrimp",
+            "description": "3 oz"
+        },
+        {
+            "name": "Shredded Beef",
+            "description": "3 oz"
+        },
+        {
+            "name": "Pork",
+            "description": "3 oz"
+        },
+        {
+            "name": "Duck Sauce",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Coconut Red Curry Sauce",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Coconut Yellow Curry Sauce",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Teriyaki Sauce",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Arugula",
+            "description": "No description available."
+        },
+        {
+            "name": "Leaf Lettuce",
+            "description": "No description available."
+        },
+        {
+            "name": "Spinach",
+            "description": "No description available."
+        },
+        {
+            "name": "Mesclun",
+            "description": "No description available."
+        },
+        {
+            "name": "Raisin",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Dried Apricot",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Dried Cranberry",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Sunflower Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Flax Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Chia Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Sesame Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Pumpkin Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Black Olives",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Focaccia Croutons",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Banana Chips",
+            "description": "No description available."
+        },
+        {
+            "name": "Goldfish Crackers",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Broccoli",
+            "description": "No description available."
+        },
+        {
+            "name": "Carrot",
+            "description": "No description available."
+        },
+        {
+            "name": "Cauliflower",
+            "description": "No description available."
+        },
+        {
+            "name": "Celery",
+            "description": "No description available."
+        },
+        {
+            "name": "Cucumber",
+            "description": "No description available."
+        },
+        {
+            "name": "Blanched Green Beans",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Mushroom",
+            "description": "No description available."
+        },
+        {
+            "name": "Onion",
+            "description": "No description available."
+        },
+        {
+            "name": "Bell Pepper",
+            "description": "No description available."
+        },
+        {
+            "name": "Tomato",
+            "description": "No description available."
+        },
+        {
+            "name": "Red Cabbage",
+            "description": "No description available."
+        },
+        {
+            "name": "Italian Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Balsamic Vinaigrette",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Extra Virgin Olive Oil",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Balsamic Vinegar",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Red Wine Vinegar",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Cucumber Yogurt Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "French Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Blue Cheese Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Buttermilk Ranch Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Balsamic Vinaigrette",
+            "description": "No description available."
+        },
+        {
+            "name": "Caesar Dressing",
+            "description": "No description available."
+        },
+        {
+            "name": "Garbanzo Beans",
+            "description": "No description available."
+        },
+        {
+            "name": "Cottage Cheese 1%",
+            "description": "No description available."
+        },
+        {
+            "name": "Yogurt Vanilla Low Fat",
+            "description": "No description available."
+        },
+        {
+            "name": "Yogurt Fruit Low Fat",
+            "description": "No description available."
+        },
+        {
+            "name": "Plain Greek Yogurt",
+            "description": "No description available."
+        },
+        {
+            "name": "Cantaloupe",
+            "description": "1/2 cup"
+        },
+        {
+            "name": "Honeydew",
+            "description": "1/2 cup"
+        },
+        {
+            "name": "Egg Whole",
+            "description": "No description available."
+        },
+        {
+            "name": "Tofu",
+            "description": "No description available."
+        },
+        {
+            "name": "Cheddar Cheese",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Feta Cheese",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Blue Cheese",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Butter",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Cream Cheese",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Jelly",
+            "description": "No description available."
+        },
+        {
+            "name": "Waffle",
+            "description": "No description available."
+        },
+        {
+            "name": "Banana",
+            "description": "No description available."
+        },
+        {
+            "name": "Blackberries",
+            "description": "No description available."
+        },
+        {
+            "name": "Blueberries",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Raspberries",
+            "description": "seasonal1/4 cup"
+        },
+        {
+            "name": "Strawberries",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Sweetened Coconut",
+            "description": "No description available."
+        },
+        {
+            "name": "Butter",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Maple Syrup",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Chocolate Syrup",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Whipped Topping",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Whole Egg",
+            "description": "1 each"
+        },
+        {
+            "name": "Broccoli",
+            "description": "No description available."
+        },
+        {
+            "name": "Mushroom",
+            "description": "No description available."
+        },
+        {
+            "name": "Onion",
+            "description": "No description available."
+        },
+        {
+            "name": "Spinach",
+            "description": "No description available."
+        },
+        {
+            "name": "Tomato",
+            "description": "No description available."
+        },
+        {
+            "name": "American Cheese",
+            "description": "1 oz"
+        },
+        {
+            "name": "Cheddar Cheese",
+            "description": "No description available."
+        },
+        {
+            "name": "Black Coffee",
+            "description": "No description available."
+        },
+        {
+            "name": "Brown Sugar",
+            "description": "No description available."
+        },
+        {
+            "name": "Granulated Sugar",
+            "description": "No description available."
+        },
+        {
+            "name": "Honey",
+            "description": "No description available."
+        },
+        {
+            "name": "Half & Half",
+            "description": "1 fl ozronnybrook farm, ny"
+        },
+        {
+            "name": "Coca-Cola",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Dr. Pepper",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Mountain Dew",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Orange Soda",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Ginger Ale",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Pepsi",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Barq's Root Beer",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Sierra Mist",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Sprite",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Gatorade",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Diet Coke",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Diet Pepsi",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Whole Wheat Bagel",
+            "description": "No description available."
+        },
+        {
+            "name": "Plain Bagel",
+            "description": "No description available."
+        },
+        {
+            "name": "Cinnamon Raisin Bagel",
+            "description": "No description available."
+        },
+        {
+            "name": "Everything Bagel",
+            "description": "No description available."
+        },
+        {
+            "name": "Onion Bagel",
+            "description": "No description available."
+        },
+        {
+            "name": "Sesame Seed Bagel",
+            "description": "No description available."
+        },
+        {
+            "name": "Multi-grain Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Whole Wheat Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Rye Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Potato Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Sourdough Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "White Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Cheerios",
+            "description": "No description available."
+        },
+        {
+            "name": "Corn Flakes",
+            "description": "No description available."
+        },
+        {
+            "name": "Heart to Heart",
+            "description": "No description available."
+        },
+        {
+            "name": "Raisin Bran",
+            "description": "No description available."
+        },
+        {
+            "name": "Rice Chex",
+            "description": "No description available."
+        },
+        {
+            "name": "Apple Jacks",
+            "description": "No description available."
+        },
+        {
+            "name": "Cinnamon Toast Crunch",
+            "description": "No description available."
+        },
+        {
+            "name": "Cocoa Puffs",
+            "description": "No description available."
+        },
+        {
+            "name": "Froot Loops",
+            "description": "No description available."
+        },
+        {
+            "name": "Frosted Flakes",
+            "description": "No description available."
+        },
+        {
+            "name": "Frosted Mini Wheats",
+            "description": "No description available."
+        },
+        {
+            "name": "Lucky Charms",
+            "description": "No description available."
+        },
+        {
+            "name": "Rice Krispies",
+            "description": "No description available."
+        },
+        {
+            "name": "Honey Nut Cheerios",
+            "description": "No description available."
+        },
+        {
+            "name": "Peach Banana Soy Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Pineapple Banana Soy Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Kale Spinach Cucumber Rice Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Mango Banana Rice Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Pineapple Banana Rice Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Strawberry Banana Rice Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Carrot and Kale Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Spinach Avocado Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Grape and Greens Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Spicy Arugula Beet Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Green Melon Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Honey Kale and Spinach Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Tropical Fruit Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Pineapple Apple Carrot Banana with Honey",
+            "description": "No description available."
+        },
+        {
+            "name": "Basil, Kiwi and Grapefruit Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Mango Banana Almond Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Peach Banana Almond Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Pineapple Banana Almond Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Strawberry Banana Almond Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Peach Yogurt 1% Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Strawberry Banana Yogurt 1% Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Blueberry Banana Yogurt 1% Milk Smoothie",
+            "description": "No description available."
+        },
+        {
+            "name": "Kale Spinach Cucumber 1% Milk Smoothie",
+            "description": "No description available."
+        }
+    ],
+    "Dinner": [
+        {
+            "name": "Carrot Ginger Soup",
+            "description": "roasted carrots simmered with aromatic vegetables, herbs, and ginger in house made vegetable stock finished with hemp milk"
+        },
+        {
+            "name": "Italian Wedding Soup",
+            "description": "pastina pasta and beef meatballs made with milk and egg-soaked breadcrumbs with sesame and soy simmered with garlic, herbs, and aromatic vegetables in house made chicken stock"
+        },
+        {
+            "name": "Ravioli Bolognese",
+            "description": "hearty bolognese sauce of ground beef, cream, and tomatoes layered with ricotta cheese stuffed ravioli egg pasta"
+        },
+        {
+            "name": "Eggplant Ratatouille",
+            "description": "eggplant and vegetables braised with tomatoes, herbs, and garlic"
+        },
+        {
+            "name": "Cider Glazed Brussels Sprouts",
+            "description": "No description available."
+        },
+        {
+            "name": "Tomato Basil Garbanzo Beans",
+            "description": "No description available."
+        },
+        {
+            "name": "Vegetable Quinoa",
+            "description": "with earth balance"
+        },
+        {
+            "name": "Tomato Herb White Rice",
+            "description": "No description available."
+        },
+        {
+            "name": "Garlic Bread",
+            "description": "with earth balance"
+        },
+        {
+            "name": "Fresh Tomato Salad",
+            "description": "with red wine vinegar"
+        },
+        {
+            "name": "Steamed Broccoli",
+            "description": "No description available."
+        },
+        {
+            "name": "All Beef Hamburgers",
+            "description": "all beef burgers served with the choice of lettuce, tomato, and cheese"
+        },
+        {
+            "name": "Garden Burgers",
+            "description": "served with the choice of lettuce, tomato, and cheese"
+        },
+        {
+            "name": "All Beef Hot Dogs",
+            "description": "No description available."
+        },
+        {
+            "name": "French Fries",
+            "description": "No description available."
+        },
+        {
+            "name": "Vegetable Samosas",
+            "description": "tender dumpling filled with potatoes and peas seasoned with mango, cilantro, ginger, and jalapenos"
+        },
+        {
+            "name": "Traditional Cheese Pizza",
+            "description": "house made dough topped with mozzarella cheese and house made sauce"
+        },
+        {
+            "name": "Classic Pepperoni Pizza",
+            "description": "house made dough topped with mozzarella cheese, sliced pepperoni, and house made sauce"
+        },
+        {
+            "name": "Balsamic Vegetable Pizza",
+            "description": "house made dough topped with balsamic roasted tomatoes, broccoli, and mushrooms and mozzarella cheese over house made sauce"
+        },
+        {
+            "name": "Buffalo Chicken Pizza",
+            "description": "house made dough topped with crispy chicken tossed with Frank's Red Hot, feta and mozzarella cheeses over house made sauce and drizzled with ranch dressing made with mayonnaise and red wine vinegar"
+        },
+        {
+            "name": "Choice of Sauce",
+            "description": "marinara sauce carrot top pesto cream sauce"
+        },
+        {
+            "name": "Mix Ins",
+            "description": "baked chicken"
+        },
+        {
+            "name": "Fresh Cooked Pasta",
+            "description": "white pastawheat pastacorn and rice penne"
+        },
+        {
+            "name": "Grilled Chicken",
+            "description": "1 each"
+        },
+        {
+            "name": "All-beef Hot Dog",
+            "description": "1 each"
+        },
+        {
+            "name": "Italian Sausage",
+            "description": "No description available."
+        },
+        {
+            "name": "All Beef Hamburger",
+            "description": "No description available."
+        },
+        {
+            "name": "Turkey Burger",
+            "description": "No description available."
+        },
+        {
+            "name": "Garden Burger",
+            "description": "No description available."
+        },
+        {
+            "name": "Saut\u00e9ed Onions",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Saut\u00e9ed Onions and Peppers",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Saut\u00e9ed Mushrooms",
+            "description": "No description available."
+        },
+        {
+            "name": "French Fries",
+            "description": "No description available."
+        },
+        {
+            "name": "Brown Rice",
+            "description": "No description available."
+        },
+        {
+            "name": "Spinach",
+            "description": "No description available."
+        },
+        {
+            "name": "Bamboo Shoot",
+            "description": "No description available."
+        },
+        {
+            "name": "Broccoli",
+            "description": "No description available."
+        },
+        {
+            "name": "Carrot",
+            "description": "No description available."
+        },
+        {
+            "name": "Mushroom",
+            "description": "No description available."
+        },
+        {
+            "name": "Onion",
+            "description": "No description available."
+        },
+        {
+            "name": "Snow Pea",
+            "description": "No description available."
+        },
+        {
+            "name": "Tofu",
+            "description": "3 oz"
+        },
+        {
+            "name": "Shredded Chicken",
+            "description": "3 oz"
+        },
+        {
+            "name": "Shrimp",
+            "description": "3 oz"
+        },
+        {
+            "name": "Shredded Beef",
+            "description": "3 oz"
+        },
+        {
+            "name": "Pork",
+            "description": "3 oz"
+        },
+        {
+            "name": "Frank's Red Hot",
+            "description": "1/2 tsp"
+        },
+        {
+            "name": "Sambal Oelek Chili Sauce",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Sweet Thai Chili Sauce",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Sriracha",
+            "description": "1/2 tsp"
+        },
+        {
+            "name": "Duck Sauce",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Coconut Red Curry Sauce",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Coconut Yellow Curry Sauce",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Teriyaki Sauce",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Hoisin Sauce",
+            "description": "No description available."
+        },
+        {
+            "name": "Cheese Pizza",
+            "description": "No description available."
+        },
+        {
+            "name": "Pepperoni Pizza",
+            "description": "No description available."
+        },
+        {
+            "name": "Dried Oregano",
+            "description": "No description available."
+        },
+        {
+            "name": "Parmesan Cheese",
+            "description": "No description available."
+        },
+        {
+            "name": "Crushed Red Pepper",
+            "description": "No description available."
+        },
+        {
+            "name": "Arugula",
+            "description": "No description available."
+        },
+        {
+            "name": "Leaf Lettuce",
+            "description": "No description available."
+        },
+        {
+            "name": "Spinach",
+            "description": "No description available."
+        },
+        {
+            "name": "Mesclun",
+            "description": "No description available."
+        },
+        {
+            "name": "Romaine",
+            "description": "No description available."
+        },
+        {
+            "name": "Raisin",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Dried Apricot",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Dried Cranberry",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Sunflower Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Flax Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Chia Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Sesame Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Pumpkin Seeds",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Black Olives",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Focaccia Croutons",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Banana Chips",
+            "description": "No description available."
+        },
+        {
+            "name": "Goldfish Crackers",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Broccoli",
+            "description": "No description available."
+        },
+        {
+            "name": "Carrot",
+            "description": "No description available."
+        },
+        {
+            "name": "Cauliflower",
+            "description": "No description available."
+        },
+        {
+            "name": "Celery",
+            "description": "No description available."
+        },
+        {
+            "name": "Cucumber",
+            "description": "No description available."
+        },
+        {
+            "name": "Blanched Green Beans",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Mushroom",
+            "description": "No description available."
+        },
+        {
+            "name": "Onion",
+            "description": "No description available."
+        },
+        {
+            "name": "Bell Pepper",
+            "description": "No description available."
+        },
+        {
+            "name": "Tomato",
+            "description": "No description available."
+        },
+        {
+            "name": "Red Cabbage",
+            "description": "No description available."
+        },
+        {
+            "name": "Italian Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Balsamic Vinaigrette",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Extra Virgin Olive Oil",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Strawberry Vinaigrette",
+            "description": "No description available."
+        },
+        {
+            "name": "Balsamic Vinegar",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Red Wine Vinegar",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Cucumber Yogurt Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Lemon Vinaigrette",
+            "description": "No description available."
+        },
+        {
+            "name": "French Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Blue Cheese Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Buttermilk Ranch Dressing",
+            "description": "1 fl oz"
+        },
+        {
+            "name": "Balsamic Vinaigrette",
+            "description": "No description available."
+        },
+        {
+            "name": "Caesar Dressing",
+            "description": "No description available."
+        },
+        {
+            "name": "Garbanzo Beans",
+            "description": "No description available."
+        },
+        {
+            "name": "Cottage Cheese 1%",
+            "description": "No description available."
+        },
+        {
+            "name": "Yogurt Vanilla Low Fat",
+            "description": "No description available."
+        },
+        {
+            "name": "Yogurt Fruit Low Fat",
+            "description": "No description available."
+        },
+        {
+            "name": "Plain Greek Yogurt",
+            "description": "No description available."
+        },
+        {
+            "name": "Cantaloupe",
+            "description": "1/2 cup"
+        },
+        {
+            "name": "Honeydew",
+            "description": "1/2 cup"
+        },
+        {
+            "name": "Blackberry",
+            "description": "No description available."
+        },
+        {
+            "name": "Blueberry",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Honeydew",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Pineapple",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Raspberry",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Strawberry",
+            "description": "1/4 cup"
+        },
+        {
+            "name": "Egg Whole",
+            "description": "No description available."
+        },
+        {
+            "name": "Tofu",
+            "description": "No description available."
+        },
+        {
+            "name": "Cheddar Cheese",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Feta Cheese",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Blue Cheese",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Butter",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Cream Cheese",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Waffle",
+            "description": "No description available."
+        },
+        {
+            "name": "Maple Syrup",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Almond Milk",
+            "description": "No description available."
+        },
+        {
+            "name": "Soy Milk",
+            "description": "No description available."
+        },
+        {
+            "name": "Soy Milk Vanilla",
+            "description": "No description available."
+        },
+        {
+            "name": "1% Milk",
+            "description": "No description available."
+        },
+        {
+            "name": "2% Milk",
+            "description": "No description available."
+        },
+        {
+            "name": "Whole Milk",
+            "description": "No description available."
+        },
+        {
+            "name": "1% Chocolate Milk",
+            "description": "No description available."
+        },
+        {
+            "name": "Chocolate Soy Milk",
+            "description": "No description available."
+        },
+        {
+            "name": "Black Coffee",
+            "description": "No description available."
+        },
+        {
+            "name": "Brown Sugar",
+            "description": "No description available."
+        },
+        {
+            "name": "Granulated Sugar",
+            "description": "No description available."
+        },
+        {
+            "name": "Honey",
+            "description": "No description available."
+        },
+        {
+            "name": "Half & Half",
+            "description": "1 fl ozronnybrook farm, ny"
+        },
+        {
+            "name": "Orange Juice",
+            "description": "No description available."
+        },
+        {
+            "name": "Apple Juice",
+            "description": "No description available."
+        },
+        {
+            "name": "Cranberry Juice",
+            "description": "No description available."
+        },
+        {
+            "name": "Coca-Cola",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Dr. Pepper",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Mountain Dew",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Orange Soda",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Ginger Ale",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Pepsi",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Barq's Root Beer",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Sierra Mist",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Sprite",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Gatorade",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Diet Coke",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Diet Pepsi",
+            "description": "12 fl oz"
+        },
+        {
+            "name": "Multi-grain Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Whole Wheat Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Rye Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Potato Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Sourdough Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "White Bread",
+            "description": "No description available."
+        },
+        {
+            "name": "Chocolate Chip Cookies",
+            "description": "No description available."
+        },
+        {
+            "name": "Oatmeal Raisin Cookie",
+            "description": "No description available."
+        },
+        {
+            "name": "Peanut Butter Cookie",
+            "description": "No description available."
+        },
+        {
+            "name": "Chocolate Fudge Brownie",
+            "description": "No description available."
+        },
+        {
+            "name": "Rice Krispie Treats Bar",
+            "description": "No description available."
+        },
+        {
+            "name": "Lettuce",
+            "description": "No description available."
+        },
+        {
+            "name": "Tomato",
+            "description": "No description available."
+        },
+        {
+            "name": "Onion",
+            "description": "No description available."
+        },
+        {
+            "name": "Yellow Mustard",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Dijon Mustard",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Brown Mustard",
+            "description": "1 tsp"
+        },
+        {
+            "name": "Mayonnaise",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Ketchup",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Dill Pickle",
+            "description": "No description available."
+        },
+        {
+            "name": "Cherry Pepper",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "Pepperoncini",
+            "description": "1 tbsp"
+        },
+        {
+            "name": "American Cheese",
+            "description": "1 oz"
+        },
+        {
+            "name": "Whole Wheat Hamburger Bun",
+            "description": "No description available."
+        },
+        {
+            "name": "Whole Wheat Hot Dog Bun",
+            "description": "No description available."
+        },
+        {
+            "name": "Hamburger Bun",
+            "description": "No description available."
+        }
+    ]
+}

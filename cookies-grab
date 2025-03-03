@@ -1,0 +1,23 @@
+import pickle
+import time
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+
+# Set up Selenium
+options = webdriver.ChromeOptions()
+options.add_argument("user-data-dir=/Users/chris/Library/Application Support/Google/Chrome")
+options.add_argument("profile-directory=Profile 22")  # Replace with actual profile name
+
+# Start Chrome and go to ChatGPT
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+driver.get("https://chat.openai.com")
+
+# Wait for manual login
+print("🔹 Please log into ChatGPT manually.")
+time.sleep(30)  # Give time to log in manually
+
+# Save cookies
+pickle.dump(driver.get_cookies(), open("chatgpt_cookies.pkl", "wb"))
+print("✅ Cookies saved!")
+driver.quit()

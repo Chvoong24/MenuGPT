@@ -1,0 +1,64 @@
+import requests
+from bs4 import BeautifulSoup
+import json
+
+# URL to scrape
+TARGET_URL = "https://wesleyan.cafebonappetit.com/cafe/the-marketplace-at-usdan/"
+
+def scrape_dinner():
+    """Scrape all Dinner sections from the website."""
+    print("Scraping website for all Dinner items...")
+
+    # Fetch the webpage
+    response = requests.get(TARGET_URL)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Define the dinner-related categories to scrape
+    dinner_categories = {
+        "Dinner": "dinner",
+        "Dinner Specials": "dinner-specials",
+        "Dinner Favorites": "dinner-favorites",
+        "Dinner Condiments & Extras": "dinner-condiments-extras"
+    }
+
+    all_dinner_items = {}
+
+    for category, section_id in dinner_categories.items():
+        print(f"🔎 Scraping {category}...")
+
+        # Locate the section by its ID
+        dinner_section = soup.find("section", id=section_id)
+
+        if not dinner_section:
+            print(f"⚠️ Warning: Section '{category}' not found.")
+            continue
+
+        # Find all menu items within the section
+        menu_items = dinner_section.find_all("div", class_="site-panel__daypart-item")
+        category_items = []
+
+        for item in menu_items:
+            # Extract dish name
+            name_tag = item.find("button", class_="h4 site-panel__daypart-item-title")
+            name = name_tag.text.strip() if name_tag else "Unknown Dish"
+
+            # Extract description (if available)
+            description_tag = item.find("div", class_="site-panel__daypart-item-description")
+            description = description_tag.text.strip() if description_tag else "No description available."
+
+            category_items.append({"name": name, "description": description})
+
+        all_dinner_items[category] = category_items
+        print(f"✅ Scraped {len(category_items)} items from {category}")
+
+    # Save data to JSON
+    with open("all_dinner_items.json", "w") as file:
+        json.dump(all_dinner_items, file, indent=4)
+
+    print(f"\n✅ Successfully scraped {sum(len(v) for v in all_dinner_items.values())} total dinner items!")
+    return all_dinner_items
+
+# Run the function
+if __name__ == "__main__":
+    data = scrape_dinner()
+    print(json.dumps(data, indent=2))

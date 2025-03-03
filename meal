@@ -1,0 +1,133 @@
+import time
+import json
+import requests
+import schedule
+from bs4 import BeautifulSoup
+
+# URL of the website to scrape
+TARGET_URL = "https://wesleyan.cafebonappetit.com/cafe/the-marketplace-at-usdan/"
+
+# File paths
+DATA_FILE = "all_meals.json"
+CHATGPT_RESPONSE_FILE = "chatgpt_meals_response.txt"
+
+# ChatGPT Login Info
+CHATGPT_URL = "https://chat.openai.com/"
+
+def scrape_meals():
+    """Scrape the website and categorize all meal types including Dinner Specials."""
+    print("Scraping website for all meal categories...")
+
+    response = requests.get(TARGET_URL)
+    soup = BeautifulSoup(response.text, "html.parser")
+
+    # Meal categories to extract
+    meal_categories = {
+        "Breakfast": "breakfast",
+        "Brunch": "brunch",
+        "Lunch": "lunch",
+        "Dinner": "dinner",
+        "Dinner Specials": "dinner-specials",
+        "Dinner Favorites": "dinner-favorites",
+        "Dinner Condiments & Extras": "dinner-condiments-extras"
+    }
+
+    all_meal_data = {}
+
+    for category, section_id in meal_categories.items():
+        print(f"🔎 Scraping {category}...")
+
+        meal_section = soup.find("section", id=section_id)
+        if not meal_section:
+            print(f"⚠️ Warning: Section '{category}' not found.")
+            continue
+
+        menu_items = meal_section.find_all("div", class_="site-panel__daypart-item")
+        category_items = []
+
+        for item in menu_items:
+            name_tag = item.find("button", class_="h4 site-panel__daypart-item-title")
+            name = name_tag.text.strip() if name_tag else "Unknown Dish"
+
+            description_tag = item.find("div", class_="site-panel__daypart-item-description")
+            description = description_tag.text.strip() if description_tag else "No description available."
+
+            category_items.append({"name": name, "description": description})
+
+        all_meal_data[category] = category_items
+        print(f"✅ Scraped {len(category_items)} items from {category}")
+
+    # Save all meal data to JSON
+    with open(DATA_FILE, "w") as file:
+        json.dump(all_meal_data, file, indent=4)
+
+    print(f"\n✅ Successfully scraped {sum(len(v) for v in all_meal_data.values())} total meal items!")
+    return all_meal_data
+
+import openai
+import json
+import os
+
+# Load API key securely from an environment variable
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # Recommended for security
+
+# Alternatively, you can hardcode the API key (NOT recommended)
+# OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+def automate_chatgpt(meal_data):
+    """Uses OpenAI API to analyze meal data instead of Selenium."""
+    print("🚀 Sending meal data to ChatGPT via API...")
+
+    # Construct the prompt
+    prompt = f"""
+    Here is the meal data from Wesleyan:
+    {json.dumps(meal_data, indent=2)}
+
+    Please analyze the menu and provide:
+    - A summary of the main dishes available for each category.
+    - A ranking of the most nutritious options.
+    - Any interesting trends or patterns in the menu.
+    - Suggestions for improvements or variations.
+
+    Use a structured response format. Keep the response concise.
+    """
+
+    try:
+        # Call OpenAI API
+        response = openai.ChatCompletion.create(
+            model="gpt-4-turbo",  # Change to "gpt-4" or "gpt-3.5-turbo" if needed
+            messages=[
+                {"role": "system", "content": "You are an AI that analyzes meal data and provides insights."},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.7
+        )
+
+        # Extract response text
+        chatgpt_response = response["choices"][0]["message"]["content"]
+
+        # Save response to file
+        with open("chatgpt_meals_response.txt", "w") as file:
+            file.write(chatgpt_response)
+
+        print("✅ ChatGPT response saved to chatgpt_meals_response.txt")
+
+    except Exception as e:
+        print(f"⚠️ Error calling OpenAI API: {e}")
+
+def run():
+    """Run the full pipeline: Scrape meals and automate ChatGPT analysis."""
+    meal_data = scrape_meals()
+    automate_chatgpt(meal_data)  # ✅ Now `automate_chatgpt()` expects meal_data
+
+# Schedule to run once a day at 7 AM
+# schedule.every().day.at("07:00").do(run)
+
+# Run immediately for testing
+run()
+
+# if __name__ == "__main__":
+#     print("Starting daily scraping and analysis...")
+#     while True:
+#         schedule.run_pending()
+#         time.sleep(60)
