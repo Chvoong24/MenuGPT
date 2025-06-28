@@ -6,14 +6,14 @@ import json
 TARGET_URL = "https://wesleyan.cafebonappetit.com/cafe/the-marketplace-at-usdan/"
 
 def scrape_dinner():
-    """Scrape all Dinner sections from the website."""
+    
     print("Scraping website for all Dinner items...")
 
     # Fetch the webpage
     response = requests.get(TARGET_URL)
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Define the dinner-related categories to scrape
+    
     dinner_categories = {
         "Dinner": "dinner",
         "Dinner Specials": "dinner-specials",
@@ -26,7 +26,7 @@ def scrape_dinner():
     for category, section_id in dinner_categories.items():
         print(f"🔎 Scraping {category}...")
 
-        # Locate the section by its ID
+        
         dinner_section = soup.find("section", id=section_id)
 
         if not dinner_section:
