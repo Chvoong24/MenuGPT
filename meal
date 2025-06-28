@@ -21,7 +21,7 @@ def scrape_meals():
     response = requests.get(TARGET_URL)
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # Meal categories to extract
+ 
     meal_categories = {
         "Breakfast": "breakfast",
         "Brunch": "brunch",
@@ -68,17 +68,13 @@ import openai
 import json
 import os
 
-# Load API key securely from an environment variable
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # Recommended for security
 
-# Alternatively, you can hardcode the API key (NOT recommended)
-# OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  
 
 def automate_chatgpt(meal_data):
     """Uses OpenAI API to analyze meal data instead of Selenium."""
     print("🚀 Sending meal data to ChatGPT via API...")
 
-    # Construct the prompt
     prompt = f"""
     Here is the meal data from Wesleyan:
     {json.dumps(meal_data, indent=2)}
@@ -93,7 +89,7 @@ def automate_chatgpt(meal_data):
     """
 
     try:
-        # Call OpenAI API
+        
         response = openai.ChatCompletion.create(
             model="gpt-4-turbo",  # Change to "gpt-4" or "gpt-3.5-turbo" if needed
             messages=[
@@ -106,7 +102,7 @@ def automate_chatgpt(meal_data):
         # Extract response text
         chatgpt_response = response["choices"][0]["message"]["content"]
 
-        # Save response to file
+       
         with open("chatgpt_meals_response.txt", "w") as file:
             file.write(chatgpt_response)
 
@@ -121,13 +117,6 @@ def run():
     automate_chatgpt(meal_data)  # ✅ Now `automate_chatgpt()` expects meal_data
 
 # Schedule to run once a day at 7 AM
-# schedule.every().day.at("07:00").do(run)
-
-# Run immediately for testing
-run()
-
-# if __name__ == "__main__":
-#     print("Starting daily scraping and analysis...")
-#     while True:
+ schedule.every().day.at("07:00").do(run)
 #         schedule.run_pending()
 #         time.sleep(60)
